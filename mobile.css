@@ -1,0 +1,213 @@
+
+
+
+/* This will apply to anything BEYOND the width*/
+/* So if it's SMALLER than this number then it gets ignored */
+@media screen and (min-width: 1226px){
+    #about {
+        width: 30%;
+    }
+}
+
+
+
+/* Its all good up to the point of 1195px */
+/* It's between 951px and beyond */
+
+@media (min-width: 950px) and (max-width: 1195px){
+    .bob-dylan {
+        font-size: .7em;
+    }    
+}
+
+
+/* THIS WILL AFFECT ANYTHING HIGHER THAN 819px */
+/* If it's bigger than 819px then it will be affected */
+/* If you go to a size BELOW 819px then it gets ignored */
+
+
+/* @media screen and (min-width: 786px) {
+        .who-am-i h1:nth-child(2) {
+        border: solid 2px red;
+      }
+ }
+ */
+
+  /* If the screen is between 786px and between 817px*/
+  /* If the screen gets smaller than 786px it goes away...and if it gets bigger than 802px it goes away*/
+@media (min-width: 786px) and (max-width:802px) {
+    .who-am-i h1 {
+        font-size: 2em;
+        /* padding: 1em; */
+      }
+      .who-am-i h1:nth-child(2) {
+        font-size: 2.5em;
+      }
+    
+    }
+    
+
+/* So make a rule that between 489px and 975 the project get displayed on block */
+/* So THE SMALLEST IT CAN GET IS 489PX and THE BIGGEST IT CAN GET IS 950px */
+@media (min-width: 489px) and (max-width: 950px){
+
+      #box {
+        width: 100%;
+        /* border: solid 2px red; */
+      }
+}
+
+
+
+
+
+    /* This will get applied to anything lower than 768xp */
+    /* If it goes BEYOND 786px it gets ignored */
+@media screen and (max-width: 768px) {
+
+  #about {
+    width: 40%;
+  }
+  #project-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #box {
+    width: 100%;
+  }
+}
+
+/* This will apply to everything when the window is smaller than 600px */
+/* Basically when the window is 600px and below it will apply */
+/* Anything beyond 600px will get ignored */
+
+@media screen and (max-width: 600px) {
+
+  #master-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: orange;
+    font-size: 0.8em;
+    padding-top: 1em;
+  }
+  .master-links li {
+    font-size: 1em;
+  }
+  .who-am-i h1 {
+    font-size: 1.7em;
+  }
+  .who-am-i h1:nth-child(2) {
+    font-size: 1.7em;
+  }
+  #project-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #box {
+    width: 100%;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 814px){
+    #about {
+        width: 60%;
+      }
+}
+
+/* Set it between 481 and 586px */
+/* THE SMALLEST IT CAN GET IS 481px */
+/* The biggest it can get is 586px */
+@media (min-width: 480px) and (max-width: 586px){
+    #the-actual-form {
+        display: flex;
+        flex-direction: column;
+      }
+      #message-side {
+          border: none;
+      }
+      #message-side {
+        padding-left: 0;
+      }
+      #group-1 label {
+        padding-top: 1em;
+      }
+      #message-side h1 {
+        padding-top: 1em;
+      }
+      .romeo-void {
+        text-align: center;
+      }
+      #info-side {
+        width: 100%;
+      }
+    
+}
+
+/* THIS RULE WILL TAKE OVER BELOW */
+
+/* This will apply to everything when the window is smaller than 480px */
+/* Basically when the window is 480px and below it will apply */
+/* Anything beyond 480px will get ignored */
+
+@media screen and (max-width: 480px) {
+.who-am-i h1:nth-child(2){
+    font-size: 1.7em;
+}
+  #info-side input[type="text"] {
+    width: 100%;
+  }
+
+  #info-side {
+    width: 100%;
+  }
+  #group-1 label {
+    padding-top: 1em;
+  }
+  #about {
+    width: 90%;
+  }
+  #message-side {
+    border: none;
+  }
+
+  #message-side h1 {
+    padding-top: 1em;
+  }
+  #message-side {
+    padding-left: 0;
+  }
+  .romeo-void {
+    text-align: center;
+  }
+
+  #the-actual-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #project-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #box {
+    width: 100%;
+  }
+}
+
+
+/* The Biggest it can get is 786px, and the smallest it can get is 601px */
+@media (min-width: 600px) and (max-width: 786px) {
+
+    .who-am-i h1 {
+        font-size: 2em;
+        /* padding: 1em; */
+      }
+      .who-am-i h1:nth-child(2) {
+        font-size: 2.5em;
+      }
+  }
+  ​
+  
+/* THE JAVASCRIPT VALUES WERE WHAT WORKED */
+/* window.innerWidth */ 
