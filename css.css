@@ -422,6 +422,11 @@ img.me {
 
 /* Contact Me */
 
+#inner-statement {
+  display: flex;
+  justify-content: center;
+}
+
 
 /* .info-side {
   width: 30%;
