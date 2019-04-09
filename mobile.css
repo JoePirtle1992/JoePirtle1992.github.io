@@ -85,9 +85,9 @@
 
   #master-nav {
     display: flex;
-    align-items: center;
     justify-content: center;
     color: orange;
+    text-align: center;
     font-size: 0.8em;
     padding-top: 1em;
   }

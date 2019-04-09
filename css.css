@@ -10,7 +10,6 @@
 }
 
 body {
-  /* background: linear-gradient(90deg, #091a17, rgb(51, 26, 25)); */
   background: black;
 }
 
@@ -28,14 +27,6 @@ body {
   font-family: 'Lato';
 }
 
-#inner-statement {
-  /* border: solid 2px green; */
-  /* height: 100%; */
-  /* display: flex; */
-  justify-content: center;
-  height: 100%;
-  display: flex;
-}
 
 /* About - AJAX SON */
 #about {
