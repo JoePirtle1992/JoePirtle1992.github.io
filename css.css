@@ -8,6 +8,9 @@
   color: white;
   font-weight: bold;
 }
+.blurb-link {
+  text-decoration: underline;
+}
 div#mahface {
   padding: .7em;
 }
