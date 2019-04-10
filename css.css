@@ -275,6 +275,17 @@ button[type="submit"]{
 text-shadow: 5px 5px 15px 5px rgba(0,0,0,0.77);
 }
 
+#bottom {
+  text-align: center;
+  color: white;
+  font-size: .29em;
+  font-weight: 100;
+  letter-spacing: .2em;
+  opacity: .7;
+  font-family: 'Lato';
+  text-transform: uppercase;
+}
+
 .project-image {
   width: 100%;
 }
