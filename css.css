@@ -8,6 +8,9 @@
   color: white;
   font-weight: bold;
 }
+div#mahface {
+  padding: .7em;
+}
 
 body {
   background: black;
@@ -113,11 +116,11 @@ body {
 }
 
 /* These two rules will cause it to grow quickly */
-#button1:hover{
+#button1:hover, #button2:hover{
   transform: scale(1.1);
 }
 
-#button1{
+#button1, #button2{
   transition: all .2s ease-in-out;
 }
 
@@ -137,7 +140,7 @@ button[type="submit"]{
   text-shadow: 2px 2px 3px rgba(236,236,236,0.91), -1px -1px 6px rgba(236,236,236,0.6);
 }
 
-.portfolio-link-i:visited {
+.portfolio-link-i:visited, .bob-dylan:visited {
   color: white;
 }
 
@@ -271,6 +274,7 @@ button[type="submit"]{
   font-family: "Lato";
 }
 
+
 .master-links li:hover {
 text-shadow: 5px 5px 15px 5px rgba(0,0,0,0.77);
 }
@@ -278,12 +282,13 @@ text-shadow: 5px 5px 15px 5px rgba(0,0,0,0.77);
 #bottom {
   text-align: center;
   color: white;
-  font-size: .29em;
+  font-size: .38em;
   font-weight: 100;
   letter-spacing: .2em;
   opacity: .7;
   font-family: 'Lato';
   text-transform: uppercase;
+  animation: mahFade 6s;
 }
 
 .project-image {
@@ -320,15 +325,11 @@ text-shadow: 5px 5px 15px 5px rgba(0,0,0,0.77);
   color: white;
 }
 
-.portfolio-link-i:visited{
-  color: white;
-}
-
 .middle {
   animation: mahFade 4s;
   padding-top: 1em;
-  /* border-top: 2px solid white;
-  border-bottom: 2px solid white; */
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
   padding-bottom: 1em;
 }
 
@@ -474,6 +475,7 @@ img.me {
 #inner-statement {
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
 
