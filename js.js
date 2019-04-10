@@ -108,19 +108,4 @@ function gimmeThreeSteps() {
 }
 
 
-
-// TEST 2
-
-const kick = window.innerWidth;
-const missingPersons = document.getElementById('window1');
-const missingPersonsII = document.getElementById('window2');
-
-// 786 - 601
-console.log(missingPersons);
-console.log(missingPersonsII)
-console.log(kick);
-
-window.onresize = function(){
-    const kick = window.innerWidth;
-    console.log(kick);
-}
+console.log('Hello! :D')

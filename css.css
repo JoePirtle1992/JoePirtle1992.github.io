@@ -112,12 +112,37 @@ body {
   display: flex;
 }
 
+/* These two rules will cause it to grow quickly */
+#button1:hover{
+  transform: scale(1.1);
+}
+
+#button1{
+  transition: all .2s ease-in-out;
+}
+
+
+/* This will make the Send Message bigger */
+button[type="submit"]:hover{
+  transform: scale(1.1);
+  -webkit-box-shadow: 5px 5px 15px -6px rgba(255,255,255,0.62); 
+box-shadow: 5px 5px 15px -6px rgba(255,255,255,0.62);
+}
+
+button[type="submit"]{
+  transition: all .5s ease-in-out;
+}
+
+.portfolio-link-i:hover {
+  text-shadow: 2px 2px 3px rgba(236,236,236,0.91), -1px -1px 6px rgba(236,236,236,0.6);
+}
+
 .portfolio-link-i:visited {
   color: white;
 }
 
-.portfolio-link-i:hover {
-  color: rgb(248, 223, 223);
+.master-links li:hover {
+  text-shadow: 2px 2px 3px rgba(236,236,236,0.91), -1px -1px 9px rgba(236,236,236,0.6);
 }
 
 .typewriter {
@@ -242,6 +267,7 @@ body {
 .master-links li {
   font-size: 1rem;
   padding: 1.2em;
+  font-weight: 100;
   font-family: "Lato";
 }
 
@@ -279,8 +305,20 @@ text-shadow: 5px 5px 15px 5px rgba(0,0,0,0.77);
   border: solid 2px black;
 }
 
+.portfolio-link-i {
+  color: white;
+}
+
+.portfolio-link-i:visited{
+  color: white;
+}
+
 .middle {
   animation: mahFade 4s;
+  padding-top: 1em;
+  /* border-top: 2px solid white;
+  border-bottom: 2px solid white; */
+  padding-bottom: 1em;
 }
 
 /* Project Boxes */
@@ -449,6 +487,12 @@ img.me {
 #the-actual-form {
   display: flex;
   align-items: baseline;
+  
+}
+
+#contact-me {
+  -webkit-box-shadow: 5px 5px 15px -5px rgba(255,255,255,0.86); 
+  box-shadow: 5px 5px 15px -5px rgba(255,255,255,0.86);
 }
 
 #info-side {
