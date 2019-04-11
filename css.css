@@ -360,6 +360,7 @@ text-shadow: 5px 5px 15px 5px rgba(0,0,0,0.77);
 }
 .bob-dylan {
   text-decoration: none;
+  color: white;
 }
 
 #group-1 label h3, #message-side h1{
