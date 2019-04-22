@@ -15,6 +15,10 @@ div#mahface {
   padding: .7em;
 }
 
+.resume {
+  width: 100%;
+}
+
 body {
   background: black;
 }
@@ -466,6 +470,7 @@ img.me {
   padding: 20px;
   width: 40%;
 }
+
 
 #about p {
   color: white;

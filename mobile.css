@@ -7,6 +7,7 @@
     #about {
         width: 30%;
     }
+    
 }
 
 
@@ -55,6 +56,7 @@
         width: 100%;
         /* border: solid 2px red; */
       }
+      
 }
 
 
@@ -76,6 +78,9 @@
 
   #about {
     width: 40%;
+  }
+  #resume {
+    width: 100%;
   }
   #project-container {
     display: flex;
@@ -163,7 +168,9 @@
       #info-side {
         width: 100%;
       }
-    
+      #about.resume {
+        width: 100%;
+      }
 }
 
 /* THIS RULE WILL TAKE OVER BELOW */
@@ -189,6 +196,9 @@
   #about {
     width: 90%;
   }
+  #resume {
+    width: 100%;
+  }
   #message-side {
     border: none;
   }
@@ -213,6 +223,9 @@
     flex-wrap: wrap;
   }
   #box {
+    width: 100%;
+  }
+  #about.resume {
     width: 100%;
   }
 }

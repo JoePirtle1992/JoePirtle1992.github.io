@@ -4,6 +4,7 @@ const original = document.getElementById('home');
 const projects = document.getElementById('mah-projects');
 const masterNav = document.getElementById('master-nav');
 const button1 = document.getElementById('button1');
+const button2 = document.getElementById('button2');
 
 // THIS WILL GIVE YOU THE CURRENT BROWSER SIZE
 const dearPrudence = window.innerWidth;
@@ -23,6 +24,21 @@ original.addEventListener('click', gimmeDanger);
 projects.addEventListener('click', gimmeShelter);
 email.addEventListener('click', gimmeThreeSteps);
 button1.addEventListener('click', gimmeThreeSteps);
+button2.addEventListener('click', gimmeTheResume);
+
+
+function gimmeTheResume(){
+    let xhr = new XMLHttpRequest();
+
+    xhr.open('GET', 'resume.html', true);
+
+    xhr.onload = function(){
+        if(this.status===200){
+            middle.innerHTML = this.responseText;
+        }
+    }
+    xhr.send();
+}
 
 
 function gimmeStrength() {
@@ -51,6 +67,10 @@ function gimmeDanger(){
             const again = document.getElementById('button1');
             again.addEventListener('click', ()=> {
                 gimmeThreeSteps();
+            })
+            const second = document.getElementById('button2');
+            second.addEventListener('click', ()=>{
+                gimmeTheResume();
             })
         }
     }
