@@ -336,10 +336,20 @@ text-shadow: 5px 5px 15px 5px rgba(0,0,0,0.77);
   animation: mahFade 4s;
   padding-top: 1em;
   padding-bottom: 1em;
+  /* font-family: 'Oswald' */
 }
+
 
 #window2 {
   padding-bottom: .3em;
+  font-family: 'Oswald';
+  font-weight: 800;
+}
+
+#window1 {
+  font-family: 'Oswald';
+  font-weight: 800;
+  letter-spacing: .03em;
 }
 
 /* Project Boxes */
