@@ -56,6 +56,9 @@
         width: 100%;
         /* border: solid 2px red; */
       }
+      #window2 {
+        font-size: 3.5em;
+      }
       
 }
 
@@ -69,7 +72,11 @@
   }
 }
 
-
+@media (min-width: 300px) and (max-width: 637px){
+  #window2 {
+    font-size: 2.6em;
+  }
+}
 
 
     /* This will get applied to anything lower than 768xp */

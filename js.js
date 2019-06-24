@@ -16,6 +16,8 @@ function resizeTest() {
     }
 }
 
+console.log(dearPrudence);
+
 // So on this function, click on the element, and it will always run this...
 
 projects.addEventListener('click', resizeTest);
