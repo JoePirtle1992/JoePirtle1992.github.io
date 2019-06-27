@@ -57,9 +57,31 @@
         /* border: solid 2px red; */
       }
       #window2 {
-        font-size: 3.5em;
+        font-size: 3.3em;
       }
       
+}
+
+/* Even Smaller */
+
+@media (min-width: 302px) and (max-width: 448px){
+
+  h1#window2 {
+    font-size: 2em;
+  }
+  
+}
+
+/* Micro */
+
+/* Even Smaller */
+
+@media (min-width: 200px) and (max-width: 392px){
+
+  h1#window2 {
+    font-size: 1.5em;
+  }
+  
 }
 
 
