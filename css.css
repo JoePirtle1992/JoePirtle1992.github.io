@@ -4,6 +4,32 @@
   box-sizing: border-box;
 }
 
+/* ICON STYLES */
+.fa-css3-alt{
+  color: royalblue;
+}
+
+.fa-html5{
+  color: orangered; 
+}
+
+.fa-js-square {
+  color: yellow;
+}
+
+.fa-react {
+  color: skyblue;
+}
+
+.fa-node {
+  color: #66cc33;
+}
+.fa-git-alt {
+  color: orange;
+}
+
+
+
 .blurb-link:visited {
   color: white;
   font-weight: bold;
@@ -172,6 +198,10 @@ button[type="submit"]{
 }
 
 /* HEADER FONT */
+.who-am-i {
+  display: flex;
+}
+
 
 .who-am-i {
   text-align: center;
@@ -214,7 +244,7 @@ button[type="submit"]{
 #button1, #button2 {
   
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,7db9e8+100 */
-  background: #1e5799; /* Old browsers */
+  background: #3c8be6; /* Old browsers */
   background: -moz-linear-gradient(
     -100deg,
     #1e5799 0%,
@@ -254,11 +284,11 @@ button[type="submit"]{
 #entire-header {
   background-image: linear-gradient(
       to bottom right,
-      rgba(2, 4, 5, 0.5),
-      rgba(32, 25, 24, 0.5)
-    ),
-    url("./ImageChoices/variable.jpeg");
-
+      rgba(255, 255, 255, 0.5),
+      rgba(240, 255, 204, 0.5)
+    )
+    /* url("./ImageChoices/variable.jpeg"); */
+;
   background-position: center;
   min-height: 100%;
   background-size: cover;
@@ -341,7 +371,7 @@ text-shadow: 5px 5px 15px 5px rgba(0,0,0,0.77);
 
 
 #window2 {
-  padding-bottom: .3em;
+  padding-bottom: .2em;
   font-family: 'Oswald';
   font-weight: 800;
   font-size: 4em;
@@ -465,11 +495,10 @@ h1 .skills-image {
 }
 
 img.me {
-  height: 120px;
-  width: 120px;
+  height: 300px;
+  width: 300px;
   object-fit: cover;
   border-radius: 50%;
-  border: solid 2px white;
 }
 
 #entire-about {
