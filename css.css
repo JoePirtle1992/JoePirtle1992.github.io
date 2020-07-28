@@ -284,11 +284,10 @@ button[type="submit"]{
 #entire-header {
   background-image: linear-gradient(
       to bottom right,
-      rgba(255, 255, 255, 0.5),
-      rgba(240, 255, 204, 0.5)
-    )
+      rgba(7, 7, 7, 0.5),
+      rgba(80, 85, 69, 0.5)
+    );
     /* url("./ImageChoices/variable.jpeg"); */
-;
   background-position: center;
   min-height: 100%;
   background-size: cover;
@@ -499,6 +498,7 @@ img.me {
   width: 300px;
   object-fit: cover;
   border-radius: 50%;
+  border: solid 2px white;
 }
 
 #entire-about {
