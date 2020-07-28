@@ -148,6 +148,11 @@ body {
   display: flex;
 }
 
+#inner-about {
+  display: flex;
+
+}
+
 /* These two rules will cause it to grow quickly */
 #button1:hover, #button2:hover{
   transform: scale(1.1);
@@ -286,8 +291,8 @@ button[type="submit"]{
       to bottom right,
       rgba(7, 7, 7, 0.5),
       rgba(98, 102, 89, 0.5)
-    );
-    /* url("./ImageChoices/variable.jpeg"); */
+    ),
+    url("./ImageChoices/variable.jpeg");
   background-position: center;
   min-height: 100%;
   background-size: cover;
@@ -339,6 +344,13 @@ text-shadow: 5px 5px 15px 5px rgba(0,0,0,0.77);
 
 /* Portfolio */
 
+#box:hover {
+  /* This will make the Send Message bigger */
+  transform: scale(1.1);
+  -webkit-box-shadow: 5px 5px 15px -6px rgba(255,255,255,0.62); 
+box-shadow: 5px 5px 15px -6px rgba(255,255,255,0.62);
+}
+
 #all-the-boxes {
   display: flex;
   flex-wrap: wrap;
@@ -363,8 +375,8 @@ text-shadow: 5px 5px 15px 5px rgba(0,0,0,0.77);
 
 .middle {
   animation: mahFade 4s;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  /* padding-top: 1em;
+  padding-bottom: 1em; */
   /* font-family: 'Oswald' */
 }
 
